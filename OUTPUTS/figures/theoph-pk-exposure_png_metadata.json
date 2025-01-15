@@ -35,7 +35,6 @@
         "cli.version": "3.6.3",
         "rlang.version": "1.1.4",
         "fontquiver.version": "0.2.1",
-        "pak.version": "0.8.0",
         "splines.version": "4.4.1",
         "munsell.version": "0.5.1",
         "withr.version": "3.0.1",
@@ -83,16 +82,16 @@
     }
   },
   "source_meta": {
-    "creation_author": "COULD NOT ACCESS GIT",
-    "latest_author": "COULD NOT ACCESS GIT",
+    "creation_author": "jacobdum <jacob@a2-ai.com>",
+    "latest_author": "jacobdum <jacob@a2-ai.com>",
     "path": "/cluster-data/user-homes/jacob/projects_internal/reportifyr_examples/scripts/01_analysis/analysis.R",
-    "creation_time": "COULD NOT ACCESS GIT",
-    "latest_time": "COULD NOT ACCESS GIT"
+    "creation_time": "2025-01-08 18:30:22",
+    "latest_time": "2025-01-08 18:30:22"
   },
   "object_meta": {
     "author": "jacobdum <jacob@a2-ai.com>",
     "path": "/cluster-data/user-homes/jacob/projects_internal/reportifyr_examples/OUTPUTS/figures/theoph-pk-exposure.png",
-    "creation_time": "2025-01-08 18:19:55",
+    "creation_time": "2025-01-15 15:41:53",
     "file_type": "png",
     "meta_type": "linear-regression-plot",
     "hash": "b596d0f1ebed494e600b43d71c71dadd7ed34cdaee9a78ac5d580b3ad5ac242e",

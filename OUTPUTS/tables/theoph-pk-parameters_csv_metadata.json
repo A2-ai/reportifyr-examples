@@ -25,7 +25,6 @@
         "here.version": "1.0.1",
         "base.version": "4.4.1",
         "R6.version": "2.5.1",
-        "pak.version": "0.8.0",
         "gdtools.version": "0.4.0",
         "generics.version": "0.1.3",
         "knitr.version": "1.48",
@@ -33,8 +32,8 @@
         "methods.version": "4.4.1",
         "tibble.version": "3.2.1",
         "rprojroot.version": "2.0.4",
-        "munsell.version": "0.5.1",
         "openssl.version": "2.2.2",
+        "munsell.version": "0.5.1",
         "pillar.version": "1.9.0",
         "rlang.version": "1.1.4",
         "utf8.version": "1.2.4",
@@ -71,16 +70,16 @@
     }
   },
   "source_meta": {
-    "creation_author": "COULD NOT ACCESS GIT",
-    "latest_author": "COULD NOT ACCESS GIT",
+    "creation_author": "jacobdum <jacob@a2-ai.com>",
+    "latest_author": "jacobdum <jacob@a2-ai.com>",
     "path": "/cluster-data/user-homes/jacob/projects_internal/reportifyr_examples/scripts/01_analysis/analysis.R",
-    "creation_time": "COULD NOT ACCESS GIT",
-    "latest_time": "COULD NOT ACCESS GIT"
+    "creation_time": "2025-01-08 18:30:22",
+    "latest_time": "2025-01-08 18:30:22"
   },
   "object_meta": {
     "author": "jacobdum <jacob@a2-ai.com>",
     "path": "/cluster-data/user-homes/jacob/projects_internal/reportifyr_examples/OUTPUTS/tables/theoph-pk-parameters.csv",
-    "creation_time": "2025-01-08 18:19:53",
+    "creation_time": "2025-01-15 15:41:51",
     "file_type": "csv",
     "meta_type": "parameter-summary",
     "hash": "40cda63faf15ecb14f7768a3547039db67998d6e746779ad6403ef3bbcc2c116",
