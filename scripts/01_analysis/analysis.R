@@ -8,7 +8,6 @@ pak::pkg_install("a2-ai/reportifyr")
 library(reportifyr)
 library(ggplot2)
 library(dplyr)
-library(flextable)
 
 initialize_report_project(project_dir = here::here())
 
