@@ -12,11 +12,12 @@ pak::pkg_install("a2-ai/reportifyr")
 library(reportifyr)
 
 # ------------------------------------------------------------------------------
-# Synchronize report project
+# Initialize report project
 # ------------------------------------------------------------------------------
-sync_report_project(
+initialize_report_project(
   project_dir = here::here(),
-  report_dir_name = NULL
+  report_dir_name = NULL,
+  outputs_dir_name = NULL
 )
 
 # ------------------------------------------------------------------------------
