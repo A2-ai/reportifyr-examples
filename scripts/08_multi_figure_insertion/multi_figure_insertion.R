@@ -23,14 +23,22 @@ initialize_report_project(
 # ------------------------------------------------------------------------------
 # Set paths
 # ------------------------------------------------------------------------------
-module_dir <- here::here("scripts", "05_remove_tables_figures_footnotes")
+figures_path  <- here::here("OUTPUTS", "figures")
+tables_path <- here::here("OUTPUTS", "tables")
+standard_footnotes <- here::here("report", "standard_footnotes.yaml")
 config <- here::here("report", "config.yaml")
 
 # ------------------------------------------------------------------------------
-# Remove tables, figures, and footnotes
+# Build report
 # ------------------------------------------------------------------------------
-remove_tables_figures_footnotes(
-  docx_in = file.path(module_dir, "template.docx"),
-  docx_out = file.path(module_dir, "template-clean.docx"),
-  config_yaml = config
+build_report(
+  docx_in = here::here("report", "shell", "template-mf.docx"),
+  docx_out = here::here("report", "draft", "template-mf-draft.docx"),
+  figures_path = figures_path,
+  tables_path = tables_path,
+  standard_footnotes_yaml = standard_footnotes,
+  config_yaml = config,
+  add_footnotes = TRUE,
+  include_object_path = FALSE,
+  footnotes_fail_on_missing_metadata = TRUE
 )

@@ -77,22 +77,20 @@
   },
   "object_meta": {
     "author": "jacobdum <jacob@a2-ai.com>",
-    "path": "OUTPUTS/tables/theoph-pk-parameters.csv",
-    "creation_time": "2025-09-19 15:27:49",
-    "file_type": "csv",
-    "meta_type": "parameter-summary",
-    "hash": "3fcc6f6507b9627e7ae12b83b0972913c59e105e49247b3313a58abfd53e490b",
+    "path": "OUTPUTS/figures/theoph-pk-conc.png",
+    "creation_time": "2025-09-19 15:27:59",
+    "file_type": "png",
+    "meta_type": "conc-time-trajectories",
+    "hash": "b900b3f56d508b25c4d50a2482d7f8b43b5ef678a93730e3ee11b7b9c83017df",
     "table1": false,
     "footnotes": {
       "equations": [],
       "notes": [
-        "AUC was calculated using linear trapezoidal integration for ascending and non-loggable segments and log-linear trapezoidal integration for descending segments."
+        "Each colored line represents the observed concentration–time profile for a specific subject identifier."
       ],
       "abbreviations": [
-        "AUC",
         "C_{max}",
-        "T_{max}",
-        "WTBL"
+        "T_{max}"
       ]
     }
   }

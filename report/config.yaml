@@ -1,0 +1,19 @@
+report_dir_name: report
+outputs_dir_name: OUTPUTS
+strict: false
+footnotes_font: Arial Narrow
+footnotes_font_size: 10
+use_object_path_as_source: false
+wrap_path_in_[]: true
+combine_duplicate_footnotes: true
+footnote_order:
+- Source
+- Object
+- Notes
+- Abbreviations
+save_table_rtf: false
+fig_alignment: center
+use_artifact_size: true
+default_fig_width: 6
+use_embedded_dimensions: true
+label_multi_figures: false
