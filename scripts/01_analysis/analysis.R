@@ -1,12 +1,7 @@
 # ------------------------------------------------------------------------------
 # Package installation
 # ------------------------------------------------------------------------------
-install.packages("pak")
-install.packages("here")
-install.packages("ggplot2")
-install.packages("dplyr")
-
-pak::pkg_install("a2-ai/reportifyr")
+source("scripts/setup_packages.R")
 
 # ------------------------------------------------------------------------------
 # Load function and libraries
