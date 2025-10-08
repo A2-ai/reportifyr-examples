@@ -1,4 +1,4 @@
-# reportifyr_examples
+# reportifyr-examples
 
 This repository contains example scripts showcasing the features of the `reportifyr` 
 R package and is designed to complement the `reportifyr` pkgdown site and `reportifyr` 
