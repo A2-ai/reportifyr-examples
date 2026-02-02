@@ -1,0 +1,12 @@
+[project]
+name = "reportifyr-examples"
+r_version = "4.5"
+
+repositories = [
+    {alias = "PRISM", url = "https://prism.dev.a2-ai.cloud/rpkgs/stratus/2026-01-29/"},
+    {alias = "reportifyr", url = "https://prism.dev.a2-ai.cloud/rpkgs/reportifyr/0.3.3/"}
+]
+
+dependencies = [
+    {name = "reportifyr", repository = "reportifyr"},
+]
