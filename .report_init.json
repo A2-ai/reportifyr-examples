@@ -1,0 +1,36 @@
+{
+  "creation_timestamp": "2026-04-10 11:15:38",
+  "last_modified": "2026-04-10 14:27:37",
+  "user": "jake",
+  "config": {
+    "report_dir_name": "report",
+    "outputs_dir_name": "OUTPUTS",
+    "strict": false,
+    "footnotes_font": "Arial Narrow",
+    "footnotes_font_size": 10,
+    "use_object_path_as_source": false,
+    "wrap_path_in_[]": true,
+    "combine_duplicate_footnotes": true,
+    "add_hash_to_footnotes": false,
+    "abbreviation_delimiter": ",",
+    "footnote_order": ["Source", "Object", "Notes", "Abbreviations"],
+    "save_table_rtf": false,
+    "fig_alignment": "center",
+    "use_artifact_size": true,
+    "default_fig_width": 6,
+    "use_embedded_dimensions": true,
+    "label_multi_figures": false,
+    "keep_caption_next": true,
+    "add_path_overlay": false,
+    "add_alt_text": true,
+    "skip_unchanged": false
+  },
+  "python_versions": {
+    "venv_dir": ".",
+    "python-docx.version": "1.1.2",
+    "pyyaml.version": "6.0.2",
+    "pillow.version": "11.1.0",
+    "uv.version": "0.10.11",
+    "python.version": "3.11.15"
+  }
+}

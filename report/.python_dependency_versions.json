@@ -1,0 +1,8 @@
+{
+  "venv_dir": "..",
+  "python-docx.version": "1.1.2",
+  "pyyaml.version": "6.0.2",
+  "pillow.version": "11.1.0",
+  "uv.version": "0.10.11",
+  "python.version": "3.11.15"
+}
