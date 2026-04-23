@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 # Package installation
 # ------------------------------------------------------------------------------
-# source("scripts/setup_packages.R")
+# Now handled by rv via CLI
 
 # ------------------------------------------------------------------------------
 # Load reportifyr
@@ -21,6 +21,8 @@ initialize_report_project(
 # Set paths
 # ------------------------------------------------------------------------------
 module_dir <- here::here("scripts", "05_remove_tables_figures_footnotes")
+figures_path  <- here::here("OUTPUTS", "figures")
+tables_path <- here::here("OUTPUTS", "tables")
 config <- here::here("report", "config.yaml")
 
 # ------------------------------------------------------------------------------
@@ -29,5 +31,7 @@ config <- here::here("report", "config.yaml")
 remove_tables_figures_footnotes(
   docx_in = file.path(module_dir, "template.docx"),
   docx_out = file.path(module_dir, "template-clean.docx"),
-  config_yaml = config
+  config_yaml = config,
+  tables_path = tables_path,
+  figures_path = figures_path
 )
