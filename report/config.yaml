@@ -1,33 +1,26 @@
 report_dir_name: report
 outputs_dir_name: OUTPUTS
 strict: false
-
-# Footnote formatting
 footnotes_font: Arial Narrow
 footnotes_font_size: 10
 use_object_path_as_source: false
+add_hash_to_footnotes: false
 wrap_path_in_[]: true
 combine_duplicate_footnotes: true
-add_hash_to_footnotes: false
-abbreviation_delimiter: ","
+abbreviation_delimiter: ','
 footnote_order:
 - Source
 - Object
 - Notes
 - Abbreviations
-
-# Table options
+- Hash
 save_table_rtf: false
-
-# Figure options
+keep_caption_next: true
+add_alt_text: true
+skip_unchanged: true
 fig_alignment: center
 use_artifact_size: true
 default_fig_width: 6
 use_embedded_dimensions: true
 label_multi_figures: false
-keep_caption_next: true
 add_path_overlay: false
-
-# Alt text and sync
-add_alt_text: true
-skip_unchanged: false
