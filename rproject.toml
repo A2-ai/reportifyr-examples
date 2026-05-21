@@ -3,9 +3,12 @@ name = "reportifyr-examples"
 r_version = "4.5"
 
 repositories = [
-    {alias = "PRISM", url = "https://prism.dev.a2-ai.cloud/rpkgs/stratus/2026-01-29/"},
+    { alias = "PRISM", url = "https://prism.dev.a2-ai.cloud/rpkgs/stratus/2026-04-30/" },
 ]
 
 dependencies = [
-    { name = "reportifyr", git = "https://github.com/A2-ai/reportifyr", branch = "dev"},
+    { name = "reportifyr", git = "https://github.com/A2-ai/reportifyr", branch = "dev" },
+    { name = "presentifyr", git = "https://github.com/A2-ai/presentifyr", branch = "main" },
+    { name = "pyro", git = "https://github.com/A2-ai/pyro", branch = "main" },
+    "devtools",
 ]
