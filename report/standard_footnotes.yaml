@@ -256,4 +256,3 @@ table_footnotes:
  probit-regression-fit: The table presents the results of a probit regression model. Coefficients, standard errors (SE), z-values, and p-values are reported for each predictor variable, indicating their relationship with the binary dependent variable.
  linear-regression-fit: The table presents the results of a linear regression model. Coefficients, standard errors (SE), t-values, and p-values are reported for each predictor variable, indicating their relationship with the dependent variable
  cox-regression-fit: The table presents the results of a Cox proportional hazards regression model, which analyzes the relationship between multiple predictor variables and the time to a specified event. Hazard ratios (HR) and 95% confidence intervals (CI) are reported for each predictor.
- parameter-summary: The table presents the summary of a simple pharmacokinetic parameter calculation.
